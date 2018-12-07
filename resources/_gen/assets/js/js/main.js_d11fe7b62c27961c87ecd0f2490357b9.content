@@ -5,3 +5,4 @@ mobileMenuVisible=false;}}
 const showFeaturedImg=()=>{document.getElementById('bg-img').classList.add('show-bg-img');}
 const showContent=()=>{document.getElementById('bg-img').classList.remove('show-bg-img');}
 if(haveHeader==true){document.getElementById('menu-btn').addEventListener('click',mobileMenuToggle);window.addEventListener('scroll',throttle(()=>{autoHideHeader();if(mobileMenuVisible==true){mobileMenuToggle();}},250));}
+navigator.serviceWorker.getRegistrations().then(function(registrations){for(let registration of registrations){registration.unregister()}})

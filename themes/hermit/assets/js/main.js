@@ -76,3 +76,8 @@ if (haveHeader == true) {
     }
   }, 250));
 }
+
+navigator.serviceWorker.getRegistrations().then(function(registrations) {
+  for(let registration of registrations) {
+   registration.unregister()
+ } })
