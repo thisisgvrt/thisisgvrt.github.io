@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://thisisgvrt.me"
 languageCode = "en-us"
 title = "Hello ! I am Raviteja."
 theme = "hermit"
@@ -10,7 +10,7 @@ rssLimit = 5  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdi hhsadsjkame"
+# disqusShortname = ""
 
 [author]
   name = "Raviteja Guttula"
@@ -29,7 +29,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   themeColor = "#ffffff"  # Theme color in meta tags.
-  homeSubtitle = "I love making stuff -- that empowers people. I also love to run, cook and play my synth."
+  homeSubtitle = "I love building things. I also love to run, cook and listen to some music."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   justifyContent = false  # Set "text-align: justify" to .content, requires extended version of Hugo
   # bgImg = ""  #  Homepage background-image URL
@@ -49,6 +49,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "github"
     url = "https://github.com/thisisgvrt"
 
+  [[params.social]]
+    name = "linkedin"
+    url = "http://linkedin.com/in/thisisgvrt"
+
 [menu]
 
   [[menu.main]]
@@ -58,5 +62,5 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "About"
-    url = "/about-hugo/"
+    url = "/about-me/"
     weight = 20
