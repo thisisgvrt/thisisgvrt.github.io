@@ -13,7 +13,7 @@ tags:
   - Logger
 ---
 
-**Project Psyche**
+**[Project Psyche](https://project-psyche.org/)**
 
 This is my shot at writing some of the services i need, They are currently solved by some services already out there. But not quite the way I expect them to be, and sometimes frustrating to work with. Since I love building stuff, why not build my own. These are the services I have in mind right now, probably new things might come later.
 
@@ -47,7 +47,7 @@ This is my shot at writing some of the services i need, They are currently solve
       - Should support multiple devices that i can use.
       - Detect the device that's best suited according to context & Location ?
 - **Logger**
-  - Targetted at [Quantified Self](http://quantifiedself.com/)
+  - Targeted at [Quantified Self](http://quantifiedself.com/)
       - Pull from strava.
       - Food logger 🍱 
       - Parse sms and purchases ? Or **Cred** ??
