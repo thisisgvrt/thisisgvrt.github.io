@@ -20,7 +20,7 @@ This is my shot at writing some of the services i need, They are currently solve
 - **Reader**
   - Reader for articles, tweets, videos, read it later articles.
   - Chronlogically placed 🙃 , Finally !!
-  - Can have a library section too, saved if marked post ```"some"``` duration ? 
+  - Can have a library section too, saved if marked else expiry post some configurable duration ? 
 - **Stream**
   - Stream of subscriptions 
       - twitter 
