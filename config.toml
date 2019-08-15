@@ -1,7 +1,7 @@
 baseURL = "https://thisisgvrt.me"
 languageCode = "en-us"
 title = "Hello ! I am Raviteja."
-theme = "hermit"
+theme = "hello"
 relativeURLs="true"
 # enableGitInfo = true
 pygmentsCodefences  = true
