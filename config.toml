@@ -35,6 +35,8 @@ googleAnalytics = "UA-129039544-1"
   justifyContent = false  # Set "text-align: justify" to .content, requires extended version of Hugo
   # bgImg = ""  #  Homepage background-image URL
 
+  clickyId = 101220804
+  
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
 
