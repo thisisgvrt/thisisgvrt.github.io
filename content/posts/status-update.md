@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2020-02-13T15:45:19-08:00
-draft: true
+draft: false
 featuredImg: ""
 tags: 
   - update
