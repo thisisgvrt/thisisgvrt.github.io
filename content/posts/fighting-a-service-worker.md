@@ -11,11 +11,11 @@ tags:
 
 I just switched from **Gatsby** to **Hugo** , for various reasons. But since my earlier version of page has a service worker, it seems to block the loading of my latest site and is causing issues. While ideally, it should look like this 
 
-![New shiny Hugo page](/new-shiny-hugo-page.png)
+![New shiny Hugo page](/~old/new-shiny-hugo-page.png)
 
 **It looks like this**
 
-![Old website with bunch of JS errors in console](/old-hugo-website-with-errors.png)
+![Old website with bunch of JS errors in console](/~old/old-hugo-website-with-errors.png)
 
 ### So, what's happening here ?
 
@@ -38,7 +38,7 @@ This is the exact feature that's screwing me, when I am trying to do a refresh -
 
 If we look at the service requests, we also see a **request to update the current service worker.**
 
-![Update for service worker](/service-worker-update-network-tab.png)
+![Update for service worker](/~old/service-worker-update-network-tab.png)
 
 So, I mounted a static file at the root of the website which has code to degister the service workers for the current domain.
 

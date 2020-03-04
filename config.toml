@@ -1,8 +1,8 @@
-baseURL = "https://thisisgvrt.me"
+baseURL = "https://thisisgvrt.me/~old"
 languageCode = "en-us"
 title = "Hello ! I am Raviteja."
 theme = "hello"
-relativeURLs="true"
+relativeURLs="false"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
